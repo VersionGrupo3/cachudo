@@ -351,7 +351,7 @@ global.reloadHandler = async function(restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate);
   }
 
-  conn.welcome = '👋 ¡Bienvenido/a!\n@user';
+  conn.welcome = '@user Blodie Bot Te Da La Bienvenida';
   conn.bye = '👋 ¡Hasta luego!\n@user';
   conn.spromote = '*[ ℹ️ ] @user Fue promovido a administrador.*';
   conn.sdemote = '*[ ℹ️ ] @user Fue degradado de administrador.*';
@@ -512,7 +512,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `[ ⏳ ] Uptime: ${uptime}`;
+  const bio = `El Mejor Bot Es Optimus Bot Uptime: ${uptime}`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
