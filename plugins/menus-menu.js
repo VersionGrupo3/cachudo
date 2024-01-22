@@ -31,7 +31,14 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ Numero Bot : +54 9 11 6041 330
   ▢ Comprar Bot : +51 926 933 818
   ▢ Ig Bot : ${mysticbot}
-  
+
+
+ _*< COMMPRAR BOT />*_
+
+  ▢ _${usedPrefix}comprarbot2_
+  ▢ _ig Owner : ${md}_
+
+ 
   _*< LISTA DE MENUS />*_
   
   ▢ _${usedPrefix}menuaudios_
@@ -47,14 +54,12 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
   ▢ _${usedPrefix}speedtest_
   ▢ _${usedPrefix}donar_
   ▢ _${usedPrefix}owner_
-  ▢ _${usedPrefix}script_
-  ▢ _${usedPrefix}reporte *<txt>*_
-  ▢ _${usedPrefix}join *<wagp_url>*_
+  ▢ _${usedPrefix}join_
   ▢ _${usedPrefix}fixmsgespera_
-  ▢ _bot_ (sin prefijo)
 
 
  _*< SUB-BOTS />*_
+ 
   ▢ _${usedPrefix}enable restrict_
   ▢ _${usedPrefix}disable restrict_
   ▢ _${usedPrefix}enable autoread_
