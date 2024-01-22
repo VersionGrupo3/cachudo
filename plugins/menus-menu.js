@@ -29,8 +29,8 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
   ▢ Owner Bot : X27
   ▢ Numero Bot : +54 9 11 6041 330
-  ▢ Comprar Bot: +51 926 933 818
-
+  ▢ Comprar Bot : +51 926 933 818
+  ▢ Ig Bot : ${mysticbot}
   
   _*< LISTA DE MENUS />*_
   
