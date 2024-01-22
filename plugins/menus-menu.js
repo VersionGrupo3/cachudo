@@ -23,7 +23,7 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const document = doc[Math.floor(Math.random() * doc.length)];
     const str = `〔 𝗕𝗹𝗼𝗱𝗶𝗲 𝗕𝗼𝘁 〕
 
- ▢ *Hola,* ${taguser} *Bot Blodie A Tu Disposicion *
+ ▢ *Hola,* ${taguser} *Bot Blodie A Tu Disposicion*
  
   _*< INFO CREADOR />*_
 
@@ -41,7 +41,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
  
  _*< SOBRE EL BOT />*_
 
-  ▢ _${usedPrefix}terminosycondiciones_
   ▢ _${usedPrefix}grupos_
   ▢ _${usedPrefix}estado_
   ▢ _${usedPrefix}infobot_
