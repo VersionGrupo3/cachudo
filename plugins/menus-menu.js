@@ -21,21 +21,17 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
     const taguser = '@' + m.sender.split('@s.whatsapp.net')[0];
     const doc = ['pdf', 'zip', 'vnd.openxmlformats-officedocument.presentationml.presentation', 'vnd.openxmlformats-officedocument.spreadsheetml.sheet', 'vnd.openxmlformats-officedocument.wordprocessingml.document'];
     const document = doc[Math.floor(Math.random() * doc.length)];
-    const str = `𝙏𝙃𝙀 𝙈𝙔𝙎𝙏𝙄𝘾 - 𝘽𝙊𝙏
+    const str = `〔 𝗕𝗹𝗼𝗱𝗶𝗲 𝗕𝗼𝘁 〕
 
- ▢ *Hola,* ${taguser}
+ ▢ *Hola,* ${taguser} *Bot Blodie A Tu Disposicion *
+ 
+  _*< INFO CREADOR />*_
 
- _*< TUS ESTADÍSTICAS />*_
+  ▢ Owner Bot : X27
+  ▢ Numero Bot : +54 9 11 6041 330
+  ▢ Comprar Bot: +51 926 933 818
 
- ▢ *Nivel:* ${level}
- ▢ *Experiencia:* ${exp}
- ▢ *Rango:* ${role}
- ▢ *Diamantes:* ${limit}
- ▢ *MysticCoins:* ${money}
- ▢ *Tokens:* ${joincount}
- ▢ *Premium:* ${user.premiumTime > 0 ? '✅' : (isPrems ? '✅' : '❌') || ''}
- ${readMore}
-
+  
   _*< LISTA DE MENUS />*_
   
   ▢ _${usedPrefix}menuaudios_
@@ -60,14 +56,6 @@ const handler = async (m, {conn, usedPrefix, usedPrefix: _p, __dirname, text, is
 
 
  _*< SUB-BOTS />*_
-
-  ▢ _${usedPrefix}serbot --code_
-  ▢ _${usedPrefix}serbot_
-  ▢ _${usedPrefix}deletebot_
-  ▢ _${usedPrefix}token_
-  ▢ _${usedPrefix}stop_
-  ▢ _${usedPrefix}bots_
-  ▢
   ▢ _${usedPrefix}enable restrict_
   ▢ _${usedPrefix}disable restrict_
   ▢ _${usedPrefix}enable autoread_
